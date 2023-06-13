@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dent</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-------- Start Header -------->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt="logo" class="logo-image"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <!-------- Start Menu -------->
+              <div class="collapse navbar-collapse justify-contet-between" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-5 mb-2 px-5 mb-lg-0 d-flex justify-content-evenly container">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Consultaion</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      How it Works
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Amazing Doctor</a></li>
+                      <li><a class="dropdown-item" href="#">Good Health</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Healthy Life</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                  </li>
+                </ul>
+            <!-------- Start Menu -------->
+                <div class="row account-section justify-content-around">
+                    <a class="btn btn-link  btn-md" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Sign In
+                    </a>
+                    <button class="btn btn-primary btn-md rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Sign Up
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-------- End Header -------->
+    <!-------- Start Intro -------->
+    <section class="intro my-3 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 intro-image-section">
+                    <div class="intro-image"><img src="./img/doctors/pngwing.com (1).png" alt="doctor"></div>
+                    <div class="available-doctors px-3 py-3">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p class="title-AvaDoc">Available Doctors</p>
+                                <span class="caption-AvaDoc not-important-txt">Select Doctors</span>
+                            </div>
+                            <div class="col-md-2"><i class="bi bi-three-dots not-important-txt"></i></div>
+                        </div>
+                        <div class="doctors-AvaDoc row">
+                            <div class="col-md-4"><img src="./img/doctors/pngwing.com (5).png" alt="doctor"><i class="bi bi-check"></i></div>
+                            <div class="col-md-8">
+                                <p>Esther Howard</p>
+                                <span>New Jersey 45463</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------- End Intro -------->
+    <script src="./script/bootstrap.min.js"></script>
+</body>
+</html>

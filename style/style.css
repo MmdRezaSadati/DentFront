@@ -1,0 +1,70 @@
+
+    /******** Start Header ********/
+body , header .navbar{background-color: #eef8fe;}
+.navbar-light .navbar-nav .nav-link{
+    color: #697994;
+    font-weight: 500;
+    font-size: 17px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #0060fa;
+}
+.account-section .btn-link{
+    color: #697994;
+    width: 80px;
+    text-decoration: none;
+}
+.account-section .btn-primary{
+    width: 100px;
+    text-decoration: none;
+}
+.account-section{
+    flex-flow: nowrap;
+}
+    /******** end Header ********/
+.titles{
+    color: #0e2249;
+}
+    /******** Start intro Section ********/
+.intro-image-section{
+    position: relative;
+}
+.intro-image{
+    width: 300px;
+    background: linear-gradient(to bottom, #DFEBFF 0%, #E0ECFF 100%);
+    border-radius: 160px;
+}
+.intro-image > img{
+    margin-top: -60px;
+    border-radius: 0 0 160px 160px ;
+    width: 100%;
+}
+.available-doctors{
+    position: absolute;
+    bottom: 50px;
+    left: -20px;
+    white-space: nowrap;
+    height: 100px;
+    box-shadow: 0 0 10px 1px #0000000f;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.available-doctors .title-AvaDoc{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.available-doctors .caption-AvaDoc{
+    font-size: 13px;
+    margin: 0;
+    font-weight: 400;    
+}
+.not-important-txt{
+    color: #697994;
+}
+.doctors-AvaDoc{
+
+}
+/******** End intro Section ********/
+/* bottomGradient e0ecff */
+/* topGradient dfebff */
