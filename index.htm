@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="./style/bootstrap.min.css">
     <link rel="stylesheet" href="./style/bootstrap-icons.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
 </head>
 <body>
     <!-------- Start Header -------->
     <header>
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt="logo" class="logo-image"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,41 +58,77 @@
     </header>
     <!-------- End Header -------->
     <!-------- Start Intro -------->
-    <section class="intro my-3 py-5">
+    <section class="intro my-0">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6 intro-image-section">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <h1 class="titles">Consult Your Dental Health Issue</h1>
+                  <p class="intro-caption not-important-txt">dignissim sed sollicitudin aliquam , sed sed vitae diam nec sit. Pulvinar ut tibcidunt consectetur</p>
+                  <a href="#" class="btn btn-primary btn-md rounded-pill py-3 px-3">schedule a call</a>
+                </div>
+                <div class="col-lg-6 intro-image-section d-flex justify-content-center">
                     <div class="intro-image"><img src="./img/doctors/pngwing.com (1).png" alt="doctor"></div>
+                    <div class="Safe-doctor row">
+                      <div class="col-2"><i class="bi bi-shield-check"></i></div>
+                      <div class="col-10"><span class="w-75"></span><span class="w-100"></span></div>
+                    </div>
+                    <!-------- Start Available Doctors -------->
                     <div class="available-doctors px-3 py-3">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-10">
                                 <p class="title-AvaDoc">Available Doctors</p>
                                 <span class="caption-AvaDoc not-important-txt">Select Doctors</span>
                             </div>
-                            <div class="col-md-2"><i class="bi bi-three-dots not-important-txt"></i></div>
+                            <div class="col-2"><i class="bi bi-three-dots not-important-txt"></i></div>
                         </div>
                         <div class="doctors-AvaDoc row">
-                            <div class="col-md-4"><img src="./img/doctors/pngwing.com (5).png" alt="doctor"><i class="bi bi-check"></i></div>
-                            <div class="col-md-8">
+                            <div class="col-4"><img src="./img/doctors/pngwing.com (5).png" alt="doctor"><i class="bi bi-check"></i></div>
+                            <div class="col-8">
                                 <p>Esther Howard</p>
                                 <span class="not-important-txt">New Jersey 45463</span>
                             </div>
                         </div>
                         <div class="doctors-AvaDoc row">
-                            <div class="col-md-4"><img src="./img/doctors/pngwing.com.png" alt="doctor"></div>
-                            <div class="col-md-8">
+                            <div class="col-4"><img src="./img/doctors/pngwing.com.png" alt="doctor"></div>
+                            <div class="col-8">
                                 <p>Kristin Watson</p>
                                 <span class="not-important-txt">6391 Elgin St.Celina</span>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-primary rounded-pill w-100 my-2">Book Appointment</button>
+                        <button type="button" class="btn btn-primary btn-primary-light rounded-pill w-100 my-2">Book Appointment</button>
                     </div>
+                    <!-------- End Available Doctors -------->
                 </div>
             </div>
         </div>
     </section>
     <!-------- End Intro -------->
+    <!-------- Start Brand -------->
+    <section class="Brand">
+      <div class="container">
+        <p class="Brand-title titles">Our Most Valuable Trusted Partner</p>
+        <div class="row justify-content-around my-3 px-4 align-items-center">
+          <div class="col-sm-2 my-2"><img src="./img/brands/Brand 1.png" alt="Brand" class="w-100"></div>
+          <div class="col-sm-2 my-2"><img src="./img/brands/Brand 2.png" alt="Brand" class="w-100"></div>
+          <div class="col-sm-2 my-2"><img src="./img/brands/Brand 3.png" alt="Brand" class="w-100"></div>
+          <div class="col-sm-2 my-2"><img src="./img/brands/Brand 4.png" alt="Brand" class="w-100"></div>
+          <div class="col-sm-2 my-2"><img src="./img/brands/Brand 5.png" alt="Brand" class="w-100"></div>
+        </div>
+      </div>
+    </section>
+    <!-------- End Brand -------->
+    <section class="card-section">
+      <div class="container">
+        <p class="card-section-title titles">Exceptionally High Standards Of Dentistry</p>
+        <div class="row gap-3 justify-content-center">
+          <div class="col-md-3 card">
+            
+          </div>
+          <div class="col-md-3 card"></div>
+          <div class="col-md-3 card"></div>
+        </div>
+      </div>
+    </section>
     <script src="./script/bootstrap.min.js"></script>
 </body>
 </html>

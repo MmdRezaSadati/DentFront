@@ -1,0 +1,25 @@
+
+@media (max-width:992px){
+    .available-doctors{
+        left: 120px;
+    }
+    .Safe-doctor{
+        left: 420px;
+    }
+}
+@media (max-width:768px){
+    .available-doctors{
+        left: 80px;
+    }
+    .Safe-doctor{
+        left: 300px;
+    }
+}
+@media (max-width:577px){
+    .available-doctors{
+        left: 60px;
+    }
+    .Safe-doctor{
+        left: 275px;
+    }
+}

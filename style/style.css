@@ -1,7 +1,12 @@
 
     /******** Start Header ********/
-body , header .navbar{background-color: #eef8fe;}
-.btn-primary{
+header{
+    background-color: #eef8fe ;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.btn-primary-light{
     background-color: #ebf3fd;
     color: #0060fa;
     border: 0 none;
@@ -27,12 +32,19 @@ body , header .navbar{background-color: #eef8fe;}
     flex-flow: nowrap;
 }
     /******** end Header ********/
+h1.titles{font-size: 4rem;}
 .titles{
     color: #0e2249;
 }
     /******** Start intro Section ********/
+.intro{
+    position: relative;
+    background: linear-gradient(to bottom, #eef8fe 0%, #fff 100%);
+    padding: 75px 0;
+}
 .intro-image-section{
     position: relative;
+    margin-top: 60px;
 }
 .intro-image{
     width: 300px;
@@ -47,7 +59,7 @@ body , header .navbar{background-color: #eef8fe;}
 .available-doctors{
     position: absolute;
     bottom: -20px;
-    left: -20px;
+    left: 80px;
     white-space: nowrap;
     box-shadow: 0 0 10px 1px #0000000f;
     border-radius: 10px;
@@ -80,7 +92,7 @@ body , header .navbar{background-color: #eef8fe;}
 .doctors-AvaDoc:nth-child(2) img{
     background-color: #feddca ;
 }
-.doctors-AvaDoc .col-md-4{position: relative;}
+.doctors-AvaDoc .col-4{position: relative;}
 .doctors-AvaDoc i{
     width: 18px;
     position: absolute;
@@ -104,6 +116,54 @@ body , header .navbar{background-color: #eef8fe;}
     margin: 0 5px;
     font-weight: 400;
 }
+
+.Safe-doctor span{
+    background-color: #0060fa10;
+    height: 7px;
+    margin: 5px;
+    border-radius: 10px;
+    display: block;
+}
+.Safe-doctor .bi-shield-check{
+    color: #0060fa;
+    font-size: 22px;
+}
+.Safe-doctor{
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #00000009;
+    left: 340px;
+    align-items: center;
+    height: 50px;
+    background-color: #fff;
+}
+.intro-caption {
+    font-size: 22px;
+}
 /******** End intro Section ********/
+/******** Start Brand Section ********/
+.Brand{
+    margin-bottom: 100px;
+}
+.Brand img{
+    cursor: pointer;
+}
+.Brand-title{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/******** End Brand Section ********/
+.card-section-title{
+    width: 300px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 auto; 
+}
+
 /* bottomGradient e0ecff */
 /* topGradient dfebff */
