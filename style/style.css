@@ -46,12 +46,12 @@ h1.titles{font-size: 4rem;}
     position: relative;
     margin-top: 60px;
 }
-.intro-image{
+.big-image{
     width: 300px;
     background: linear-gradient(to bottom, #DFEBFF 0%, #E0ECFF 100%);
     border-radius: 160px;
 }
-.intro-image > img{
+.big-image > img{
     margin-top: -60px;
     border-radius: 0 0 160px 160px ;
     width: 100%;
@@ -157,13 +157,75 @@ h1.titles{font-size: 4rem;}
 }
 
 /******** End Brand Section ********/
+/******** Start Card Section ********/
 .card-section-title{
     width: 300px;
-    font-size: 26px;
+    font-size: 26px !important;
     text-align: center;
     font-weight: 500;
-    margin: 0 auto; 
+    margin: 0 auto !important; 
 }
-
+.card-section .card:first-child {box-shadow: 8px 0 16px 1px #0e224925;}
+.card-section .card:last-child {box-shadow: -8px 0 16px 1px #0e224925;}
+.card-section .card{
+    border: 0 none;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px 1px #0e224920;
+    padding: 0 0 10px 20px;
+}
+.card-section img{
+    width: 50px ;
+    margin: 25px 0;
+}
+.card-section p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+/******** End Card Section ********/
+.doctor-detail{
+    position: absolute;
+    bottom: -10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 1px #0000000f;
+    padding: 20px 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+    right: 30px;
+    width: 230px;
+}
+.doctor-detail .bi-person{
+    font-size: 20px;
+    padding: 2px 5px;
+    background-color: #0060fa;
+    color: #fff;
+}
+.doctor-detail p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.doctor-detail span{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.doctor-detail .my-2{
+    font-size: 14px;
+    font-weight: 500;
+}
+.doctor-detail .my-2 .titles{
+    font-size: 16px;
+    font-weight: 700;
+}
+.doctor-detail i{
+    color: #53a1fb;
+    font-size: 18px;
+}
+.best-doctor-section h2.titles{
+    font-size: 45px;
+    font-weight: 700;
+}
 /* bottomGradient e0ecff */
 /* topGradient dfebff */
