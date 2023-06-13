@@ -1,6 +1,11 @@
 
     /******** Start Header ********/
 body , header .navbar{background-color: #eef8fe;}
+.btn-primary{
+    background-color: #ebf3fd;
+    color: #0060fa;
+    border: 0 none;
+}
 .navbar-light .navbar-nav .nav-link{
     color: #697994;
     font-weight: 500;
@@ -41,10 +46,9 @@ body , header .navbar{background-color: #eef8fe;}
 }
 .available-doctors{
     position: absolute;
-    bottom: 50px;
+    bottom: -20px;
     left: -20px;
     white-space: nowrap;
-    height: 100px;
     box-shadow: 0 0 10px 1px #0000000f;
     border-radius: 10px;
     background-color: #fff;
@@ -63,7 +67,42 @@ body , header .navbar{background-color: #eef8fe;}
     color: #697994;
 }
 .doctors-AvaDoc{
-
+    width: 100%;
+    padding: 5px 0;
+}
+.doctors-AvaDoc img{
+    width: 55px;
+    height:55px;
+    border-radius: 50%;
+    padding-top: 5px;
+    background-color: #ffc7df ;
+}
+.doctors-AvaDoc:nth-child(2) img{
+    background-color: #feddca ;
+}
+.doctors-AvaDoc .col-md-4{position: relative;}
+.doctors-AvaDoc i{
+    width: 18px;
+    position: absolute;
+    border: 1px solid #fff;
+    height: 18px;
+    bottom: 5px;
+    right: -5px;
+    display: block;
+    line-height: .8;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #0060fa;
+}
+.doctors-AvaDoc p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+.doctors-AvaDoc span{
+    font-size: 11px;
+    margin: 0 5px;
+    font-weight: 400;
 }
 /******** End intro Section ********/
 /* bottomGradient e0ecff */
