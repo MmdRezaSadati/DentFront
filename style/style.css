@@ -1,3 +1,38 @@
+p.style1{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+span.style1{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+p.style2{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+span.style2{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+p.style3{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+span.style3{
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0;
+}
+p.style4{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
 
     /******** Start Header ********/
 header{
@@ -65,16 +100,6 @@ h1.titles{font-size: 4rem;}
     border-radius: 10px;
     background-color: #fff;
 }
-.available-doctors .title-AvaDoc{
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0;
-}
-.available-doctors .caption-AvaDoc{
-    font-size: 13px;
-    margin: 0;
-    font-weight: 400;    
-}
 .not-important-txt{
     color: #697994;
 }
@@ -106,17 +131,6 @@ h1.titles{font-size: 4rem;}
     border-radius: 50%;
     background-color: #0060fa;
 }
-.doctors-AvaDoc p{
-    font-size: 14px;
-    font-weight: 500;
-    margin: 0 5px;
-}
-.doctors-AvaDoc span{
-    font-size: 11px;
-    margin: 0 5px;
-    font-weight: 400;
-}
-
 .Safe-doctor span{
     background-color: #0060fa10;
     height: 7px;
@@ -178,11 +192,6 @@ h1.titles{font-size: 4rem;}
     width: 50px ;
     margin: 25px 0;
 }
-.card-section p{
-    font-size: 18px;
-    font-weight: 500;
-    margin: 0;
-}
 /******** End Card Section ********/
 .doctor-detail{
     position: absolute;
@@ -226,6 +235,60 @@ h1.titles{font-size: 4rem;}
 .best-doctor-section h2.titles{
     font-size: 45px;
     font-weight: 700;
+}
+.best-doctor-section input{
+    display: none;
+}
+.best-doctor-section label{
+    margin: 10px 0;
+    transition: .15s;
+    border-radius: 10px;
+    box-shadow: 0 0px 0 0 #00000000;
+    width: 350px;
+    padding: 10px;
+}
+.best-doctor-section label img{
+    width: 60px;
+}
+
+.best-doctor-radio:checked + label{
+    background-color: #fff;
+    transform: translate(0, -5px);
+    box-shadow: 0 5px 10px 1px #00000059;
+}
+/******** Start slider Section ********/
+.doctors-slider .slid-doctor img{
+    background: linear-gradient(to bottom, #e6eefaaf 0%, #e4edfdaf 100%);
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+.doctors-slider .carousel-indicators button{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #0060fa40 !important;
+}
+.doctors-slider .carousel-indicators button.active{background-color: #0060fa !important;}
+.doctors-slider .slid-doctor{
+    text-align: center;
+    margin: 20px 0;
+}
+.doctors-slider .slid-doctor p{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+.doctors-slider .slid-doctor span{
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex;
 }
 /* bottomGradient e0ecff */
 /* topGradient dfebff */
