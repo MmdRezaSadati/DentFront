@@ -1,48 +1,30 @@
 
 @media (max-width:992px){
-    .available-doctors{
-        left: 120px;
-    }
-    .Safe-doctor{
-        left: 420px;
-    }
-    .avatarSection{
-        top: 115px;
-        left: -22px;
-    }
     .doctors-slider .slid-doctor img{
-        width: 220px;
-        height: 270px;
+        width: calc(500px/2.3);
+        height: calc(520px/2.3) ;
+    }
+    .Brand{
+        display: none;
     }
 }
 @media (max-width:768px){
-    .available-doctors{
-        left: 80px;
-    }
     .carousel-item {
         padding-right:20px;
         padding-left:20px;
     }
+    .card-sectionRow{
+        flex-flow: wrap;
+    }
     .doctors-slider .slid-doctor img{
-        width: 130px;
-        height: 200px;
+        width: calc(500px/3.2);
+        height: calc(520px/3.2) ;
     }
     .doctors-slider .slid-doctor p{
         font-size: 16px;
     }
     .doctors-slider .slid-doctor span{
         font-size: 12px;
-    }
-    .Safe-doctor{
-        left: 300px;
-    }
-    .avatarSection{
-        top: 100px;
-        left: 50px;
-    }
-    .Consult{
-        bottom: -100px;
-        left: 140px;
     }
     .Special > .container > .row > .position-relative{
         display: flex;
@@ -51,26 +33,14 @@
     }
 }
 @media (max-width:577px){
-    .available-doctors{
-        left: 60px;
-    }
     .doctors-slider .slid-doctor img{
-        width: 115px;
-        height: 150px;
+        width: calc(500px/4.2);
+        height: calc(520px/4.2) ;
     }
     .doctors-slider .slid-doctor p{
         font-size: 14px;
     }
     .doctors-slider .slid-doctor span{
         font-size: 10px;
-    }
-    .Safe-doctor{
-        left: 275px;
-    }
-    .avatarSection{
-        left: 30px;
-    }
-    .Consult{
-        left: 105px;
     }
 }

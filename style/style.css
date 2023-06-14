@@ -80,11 +80,13 @@ h1.titles{font-size: 4rem;}
 .intro-image-section{
     position: relative;
     margin-top: 60px;
+    padding-left: 125px;
 }
 .big-image{
     width: 300px;
     background: linear-gradient(to bottom, #DFEBFF 0%, #E0ECFF 100%);
     border-radius: 160px;
+    position: relative;
 }
 .big-image > img{
     margin-top: -60px;
@@ -94,7 +96,7 @@ h1.titles{font-size: 4rem;}
 .available-doctors{
     position: absolute;
     bottom: -20px;
-    left: 80px;
+    left: -30px;
     white-space: nowrap;
     box-shadow: 0 0 20px 1px #0060fa0f;
     border-radius: 10px;
@@ -148,7 +150,7 @@ h1.titles{font-size: 4rem;}
     top: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px 1px #0060fa09;
-    left: 340px;
+    right: -30px;
     align-items: center;
     height: 50px;
     background-color: #fff;
@@ -200,6 +202,9 @@ h1.titles{font-size: 4rem;}
 .card-section img{
     width: 50px ;
     margin: 25px 0;
+}
+.card-sectionRow{
+    flex-flow: nowrap;
 }
 /******** End Card Section ********/
 .doctor-detail{
@@ -258,8 +263,9 @@ h1.titles{font-size: 4rem;}
 /******** Start slider Section ********/
 .doctors-slider .slid-doctor img{
     background: linear-gradient(to bottom, #e6eefaaf 0%, #e4edfdaf 100%);
-    width: 270px;
-    height: 300px;
+    width: calc(500px/1.7);
+    object-fit: cover;
+    height: calc(520px/1.7) ;
     border-radius: 10px;
 }
 .doctors-slider .carousel-indicators button{
@@ -304,7 +310,7 @@ h1.titles{font-size: 4rem;}
     width: 150px;
     transform: scale(0.9);
     top: 80px;
-    left: -50px;
+    left: -40px;
     box-shadow: 0 8px 25px 1px #0e22491f;
     border-radius: 10px;
 }
@@ -332,7 +338,7 @@ h1.titles{font-size: 4rem;}
     transform: scale(0.9);
     bottom: -80px;
     text-align: left;
-    left: 40px;
+    left:30px;
     box-shadow: 0 0 40px 1px #0060fa18;
     border-radius: 10px;
 }
