@@ -96,7 +96,7 @@ h1.titles{font-size: 4rem;}
     bottom: -20px;
     left: 80px;
     white-space: nowrap;
-    box-shadow: 0 0 10px 1px #0000000f;
+    box-shadow: 0 0 20px 1px #0060fa0f;
     border-radius: 10px;
     background-color: #fff;
 }
@@ -147,7 +147,7 @@ h1.titles{font-size: 4rem;}
     position: absolute;
     top: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px 1px #00000009;
+    box-shadow: 0 0 10px 1px #0060fa09;
     left: 340px;
     align-items: center;
     height: 50px;
@@ -190,13 +190,11 @@ h1.titles{font-size: 4rem;}
     font-weight: 500;
     margin: 0 auto !important; 
 }
-.card-section .card:first-child {box-shadow: 8px 0 16px 1px #0e224925;}
-.card-section .card:last-child {box-shadow: -8px 0 16px 1px #0e224925;}
 .card-section .card{
     border: 0 none;
     border-radius: 10px;
     margin: 10px 0;
-    box-shadow: 0 0 10px 1px #0e224920;
+    box-shadow: 0 0 20px 1px #0a47aa18;
     padding: 0 0 10px 20px;
 }
 .card-section img{
@@ -208,7 +206,7 @@ h1.titles{font-size: 4rem;}
     position: absolute;
     bottom: -10px;
     background-color: #fff;
-    box-shadow: 0 0 10px 1px #0000000f;
+    box-shadow: 0 0 10px 1px #0060fa0f;
     padding: 20px 10px;
     border-radius: 10px;
     white-space: nowrap;
@@ -255,13 +253,13 @@ h1.titles{font-size: 4rem;}
 .best-doctor-radio:checked + label{
     background-color: #fff;
     transform: translate(0, -5px);
-    box-shadow: 0 5px 10px 1px #00000059;
+    box-shadow: 0 5px 20px 1px #0060fa15;
 }
 /******** Start slider Section ********/
 .doctors-slider .slid-doctor img{
     background: linear-gradient(to bottom, #e6eefaaf 0%, #e4edfdaf 100%);
-    width: 150px;
-    height: 200px;
+    width: 270px;
+    height: 300px;
     border-radius: 10px;
 }
 .doctors-slider .carousel-indicators button{
@@ -307,7 +305,7 @@ h1.titles{font-size: 4rem;}
     transform: scale(0.9);
     top: 80px;
     left: -50px;
-    box-shadow: 0 0 10px 1px #0e22491f;
+    box-shadow: 0 8px 25px 1px #0e22491f;
     border-radius: 10px;
 }
 .avatarSection .bi-suit-heart-fill{
@@ -335,7 +333,7 @@ h1.titles{font-size: 4rem;}
     bottom: -80px;
     text-align: left;
     left: 40px;
-    box-shadow: 0 0 10px 1px #0e22491f;
+    box-shadow: 0 0 40px 1px #0060fa18;
     border-radius: 10px;
 }
 .Special span{
@@ -366,7 +364,7 @@ h1.titles{font-size: 4rem;}
 }
 .comment-section .card{
     border: 0 none;
-    box-shadow: 0 0 30px 1px #0e22492f;
+    box-shadow: 0 0 30px 1px #01307c18;
 }
 .comment-section .container > h2{
     font-size: 24px;

@@ -10,10 +10,28 @@
         top: 115px;
         left: -22px;
     }
+    .doctors-slider .slid-doctor img{
+        width: 220px;
+        height: 270px;
+    }
 }
 @media (max-width:768px){
     .available-doctors{
         left: 80px;
+    }
+    .carousel-item {
+        padding-right:20px;
+        padding-left:20px;
+    }
+    .doctors-slider .slid-doctor img{
+        width: 130px;
+        height: 200px;
+    }
+    .doctors-slider .slid-doctor p{
+        font-size: 16px;
+    }
+    .doctors-slider .slid-doctor span{
+        font-size: 12px;
     }
     .Safe-doctor{
         left: 300px;
@@ -35,6 +53,16 @@
 @media (max-width:577px){
     .available-doctors{
         left: 60px;
+    }
+    .doctors-slider .slid-doctor img{
+        width: 115px;
+        height: 150px;
+    }
+    .doctors-slider .slid-doctor p{
+        font-size: 14px;
+    }
+    .doctors-slider .slid-doctor span{
+        font-size: 10px;
     }
     .Safe-doctor{
         left: 275px;
