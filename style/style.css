@@ -156,6 +156,17 @@ h1.titles{font-size: 4rem;}
 .intro-caption {
     font-size: 22px;
 }
+.tooth-section img{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    background-color: #0060fa;
+    border-radius: 50%;
+}
+.tooth-section a{
+    color: #0060fa !important;
+    text-decoration: none;
+}
 /******** End intro Section ********/
 /******** Start Brand Section ********/
 .Brand{
@@ -209,16 +220,6 @@ h1.titles{font-size: 4rem;}
     padding: 2px 5px;
     background-color: #0060fa;
     color: #fff;
-}
-.doctor-detail p{
-    font-size: 14px;
-    font-weight: 500;
-    margin: 0;
-}
-.doctor-detail span{
-    font-size: 14px;
-    font-weight: 500;
-    margin: 0;
 }
 .doctor-detail .my-2{
     font-size: 14px;
@@ -291,6 +292,7 @@ h1.titles{font-size: 4rem;}
     display: flex;
 }
 /******** End slider Section ********/
+/******** Start Special Section ********/
 .Special .big-image{
     border-radius: 50px;
 }
@@ -330,11 +332,111 @@ h1.titles{font-size: 4rem;}
     position: absolute;
     width: 250px;
     transform: scale(0.9);
-    bottom: 20px;
+    bottom: -80px;
     text-align: left;
-    left: -50px;
+    left: 40px;
     box-shadow: 0 0 10px 1px #0e22491f;
     border-radius: 10px;
+}
+.Special span{
+    width: auto;
+    display: block;
+}
+.Special .bi-check{
+    width: 18px;
+    border: 1px solid #fff;
+    height: 18px;
+    display: inline-block;
+    padding: 0;
+    line-height: .8;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #0060fa;
+}
+/******** End Special Section ********/
+/******** Start Comment Section ********/
+.comment-section .bi-star-fill{
+    color: orange;
+    margin: 3px;
+    font-size: 12px;
+}
+.comment-section img{
+    width: 70px;
+    display: inline-block;
+}
+.comment-section .card{
+    border: 0 none;
+    box-shadow: 0 0 30px 1px #0e22492f;
+}
+.comment-section .container > h2{
+    font-size: 24px;
+    width: 250px;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px auto;
+}
+
+
+footer{
+    background-color: #1a2433;
+    margin-top: 20px;
+}
+footer p{
+    color: #eee;
+    font-size: 14px;
+}
+footer h3{
+    color: #fff ;
+    font-size: 22px;
+    width: 300px;
+}
+footer h5{
+    color: #fff ;
+    white-space: nowrap;
+    margin: 10px 0;
+    font-size: 16px;
+}
+footer .nav-link , footer p{
+    color: #aaacb4 ;
+}
+footer .nav-link:hover{
+    color: #fff ;
+}
+#newsletter1{
+    background-color: transparent;
+    width: 100%;
+    border: 0 none;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    font-size: 14px;
+    position: absolute;
+    height: 100%;
+}
+.Subscribe-form{
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+    position: relative;
+    padding: 4px 7px;
+    background-color: #ffffff10;
+}
+.Subscribe-form button{
+    z-index: 10;
+}
+footer .link-dark{
+    color: #cccccc;
+    display: block;
+    text-align: center;
+    width: 25px;
+    transition: .15s;
+    font-size: 14px;
+    border: 1px solid #ffffff3a;
+    height: 25px;
+    border-radius: 50%;
+}
+footer .link-dark:hover{
+    color: #fff;
 }
 /* bottomGradient e0ecff */
 /* topGradient dfebff */
